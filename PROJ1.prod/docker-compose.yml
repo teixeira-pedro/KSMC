@@ -1,0 +1,11 @@
+#define a versão do docker compose
+version: "3"
+
+#-------------------serviços
+#define os serviços que serao criados e gerenciados pelo compose
+services:
+
+  #.......servico 1
+  scrapperTesteNBA:
+    container_name: scrapperTesteNBA
+    
